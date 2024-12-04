@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+gzip
+statsmodels.api
+seaborn
+matplotlib.pyplot
+json
+subprocess
+sklearn.metrics
+sklearn.linear_model
+sklearn.preprocessing
