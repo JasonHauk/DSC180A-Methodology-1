@@ -14,9 +14,10 @@ Creating and testing a Polygenic Risk Score (PRS) built from publicly available 
 ## File Structure
 
 ```
-├├── f
-│
-│
+├├── .ipynb_checkpoints                      <- Contains checkpoints notebooks, please ignore
+│  ├── PRS_Implementation- checkpoint.ipynb  <- Example checkpoint notebook
+│  ├── ...
+├──PRS_Implementation.ipynb                  <- This notebook provides a step by step look at how to perform PRS
 ├── data
 │  ├── EUR.1.test                            <- Contains all relevant components of genetic data for chromosome 1
 │  │  ├── 1000G.EUR.1.bed                    <- Genotype information for chromosome 1 for EUR pop
@@ -49,8 +50,6 @@ Creating and testing a Polygenic Risk Score (PRS) built from publicly available 
 │  ├── GD462.GeneQuantRPKM.50FN.samplename.resk10.txt.gz   <- Gene expression data for observed population
 │  ├── gene_annot.txt.gz                     <- Annotations for to provide additional information about genes
 │  └── genome_Tiffany_AmariutaBartell.vcf    <- Mentors genome for validating other phenotype predictions
-│
-├── PRS_Implementation.ipynb                 <- This notebook provides a step by step look at how to perform PRS
 │
 ├── Report                                   <- Contains the files related to my Project 1 Report
 │  ├── MUST FILL                             <- MUSTFILL
