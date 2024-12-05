@@ -61,4 +61,4 @@ Creating and testing a Polygenic Risk Score (PRS) built from publicly available 
 
 ## Summary
 
-Not sure yet
+While the PRS did not perform as well as expected for test gene, the process seems to have ran smoothly.
